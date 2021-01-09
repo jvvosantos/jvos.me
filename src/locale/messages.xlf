@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="93b98ae7f965b9433930e4dc60a8d74a6b0895c1" datatype="html">
+        <source>JVOS is me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Main title</note>
+      </trans-unit>
+      <trans-unit id="a46ff48410b99ae484138e8c76d8cd6955a8e427" datatype="html">
+        <source>Soon I&apos;m gonna use this space to display some of my personal projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="01ce60151d573b6701bef12b6601f8694ba32ea8" datatype="html">
+        <source>For now, why don&apos;t you check out my GitHub?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

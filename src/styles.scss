@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+$color-bg: #262626;
+$color-elements: #387D7A;
+$color-primary: #DEF2C8;
+$color-secondary: #C5DAC1;
+$color-tertiary: #BCD0C7;
+
+body {
+    background-color: $color-bg;
+    color: $color-primary;
+    font-family: Work Sans, sans-serif;
+    overflow: hidden;
+}

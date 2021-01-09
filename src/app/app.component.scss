@@ -1,0 +1,93 @@
+$color-bg: #262626;
+$color-elements: #387D7A;
+$color-primary: #DEF2C8;
+$color-secondary: #C5DAC1;
+$color-tertiary: #BCD0C7;
+
+.header {
+    height: 13vh;
+    width: calc(100vw - 26vh);
+    margin-left: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-content {
+    grid-area: center;
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $color-secondary;
+}
+
+.footer {
+    width: calc(100vw - 26vh);
+    margin-left: 13vh;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: footer;
+}
+
+.denis {
+    margin-right: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    color: $color-primary;
+}
+
+.hello {
+    font-weight: 900;
+    font-size: 6rem;
+}
+
+.line {
+    height: 3px;
+    width: -webkit-fill-available;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 2px;
+    background-color: $color-primary;
+}
+
+.github-button {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.github-button:hover {
+    background-color: white;
+    color: $color-bg;
+
+    .invert {
+        filter: none;
+    }
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.button-icon {
+    width: 32px;
+    margin: 5px;
+}
+
+.button-text {
+    margin: 5px;
+}
