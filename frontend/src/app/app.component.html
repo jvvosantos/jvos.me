@@ -1,21 +1,14 @@
 <div class="header">
-  <div class="line"></div>
- <!-- <a class="denis">Home</a>
-  <a class="denis">Playground</a>
+  <a class="main-link" (click)="navigate('')" *ngIf="showHomeLink()">Home</a>
+  <div class="line primary-bg"></div>
+  <a class="main-link" (click)="navigate('about')">About</a>
+  <a class="main-link" (click)="navigate('blog')">Blog</a>
+  <!-- <a class="denis">Playground</a>
   <a class="denis">About</a>-->
 </div>
 
-<div class="main-content">
-  <h1 class="hello" i18n="Main title">JVOS is me</h1>
-  <span i18n>Soon I'm gonna use this space to display some of my personal projects</span>
-  <span i18n>For now, why don't you check out my GitHub?</span>
-  <a class="github-button" href="https://github.com/jvvosantos" target="_blank">
-    <img class="button-icon invert" src="../assets/github-logo.png">
-    <span class="button-text">jvvosantos</span>
-  </a>
-
-</div>
+<router-outlet></router-outlet>
 
 <div class="footer">
-  <div class="line"></div>
+  <div class="line primary-bg"></div>
 </div>

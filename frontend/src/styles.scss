@@ -10,3 +10,83 @@ body {
     font-family: Work Sans, sans-serif;
     overflow: hidden;
 }
+
+.primary {
+    color: $color-primary;
+}
+
+.primary-bg {
+    background-color: $color-primary;
+}
+
+.secondary {
+    color: $color-secondary;
+}
+
+.secondary-bg {
+    background-color: $color-secondary;
+}
+
+.tertiary {
+    color: $color-tertiary;
+}
+
+.tertiary-bg {
+    background-color: $color-tertiary;
+}
+
+.header {
+    height: 13vh;
+    width: calc(100vw - 26vh);
+    margin-left: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-content {
+    grid-area: center;
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    width: calc(100vw - 26vh);
+    margin-left: 13vh;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: footer;
+}
+
+.line {
+    height: 3px;
+    width: -webkit-fill-available;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 2px;
+    transition: width 2s;
+}
+
+.main-link {
+    margin-right: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+
+    &:hover::after {
+        content: "";
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        bottom: -3px;
+        border: 1px solid;
+      }
+}
